@@ -1,0 +1,41 @@
+.home_section{
+    background-color: var(--DarkSecondary_color);
+    position: relative;
+    
+}
+.home_section>*{
+   width: 50%;
+}
+.home_title{
+    h1{
+        font-size: 2.5rem;
+        color: var(--text_muted);
+    }
+    p{
+        color: var(--text_gray);
+    }
+}
+.btn_resume{
+    background-color: var(--secondary-color);
+    color: var(--text_gray);
+    transition: 0.3s linear;
+    border-radius: 3px;
+    &:hover{
+        color: var(--DarkSecondary_color);
+        background-color: var(--text_muted);
+    }
+}
+@media screen and (max-width: 768px){
+    .home_title{
+        h1{
+            font-size: 1.7rem;
+        }
+    }
+    .home_section{
+        flex-direction: column;
+    }
+    .home_section>*{
+        width: 100%;
+    }
+
+}

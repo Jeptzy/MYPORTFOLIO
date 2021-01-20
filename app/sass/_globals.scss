@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    // font-family: 'Poppins', sans-serif;
+    // font-family: 'Comfortaa', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-size: var(--font_normal);
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none
+}
+.flex{
+    display: flex;
+    &_jc_between{
+        justify-content: space-between;
+    }
+    &_jc_around{
+        justify-content: space-around;
+    }
+    &_jc_center{
+        justify-content: center;
+     }
+     &_align_center{
+        align-items: center;
+     }
+}
+.btn{
+    padding: 0.6rem 1rem;
+    outline: none;
+    border: none;
+}
+.container{
+    height: 100vh;
+    margin-top: 4.5rem;
+    padding: 20px;
+    
+}
