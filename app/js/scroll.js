@@ -11,5 +11,8 @@ sr.reveal('.home_bg', {origin:'right', delay: 400})
 
 
 sr.reveal('.about_biography')
+sr.reveal('.skill_title',{origin:'left', delay:900})
+sr.reveal('.col'), {delay: 1200}
+
 
 // ScrollReveal().reveal('.headline');

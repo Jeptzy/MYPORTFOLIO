@@ -36,9 +36,13 @@
 
 @media screen and (max-width: 768px){
     .home_title{
+        padding-top: 40px;
         h1{
-            font-size: 1.7rem;
+            font-size: 1.2rem;
         }
+    }
+    h1{
+        font-size: 1.2rem;
     }
     .home_section{
         flex-direction: column;

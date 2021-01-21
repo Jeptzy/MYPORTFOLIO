@@ -279,8 +279,14 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  .home_title {
+    padding-top: 40px;
+  }
   .home_title h1 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 1.2rem;
   }
   .home_section {
     -webkit-box-orient: vertical;
@@ -349,6 +355,9 @@ header {
     -webkit-transform: rotateZ(-90deg);
             transform: rotateZ(-90deg);
   }
+  .skill_section {
+    height: auto;
+  }
 }
 
 .about_info i {
@@ -366,6 +375,7 @@ header {
 .about_profile {
   border-right: 5px solid var(--secondary-color);
   margin-right: 20px;
+  text-align: center;
 }
 
 .about_png {
@@ -376,8 +386,9 @@ header {
 }
 
 .about_profile img {
-  width: 300px;
-  height: 300px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -398,12 +409,11 @@ header {
 
 .skill_section {
   background-color: var(--Dark_color);
-  height: auto;
 }
 
 .col {
-  height: 140px;
-  width: 140px;
+  height: 130px;
+  width: 130px;
   border-radius: 10px;
   background-color: var(--DarkSecondary_color);
   padding: 10px;
@@ -413,5 +423,12 @@ header {
 .col img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .col {
+    height: 100px;
+    width: 100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

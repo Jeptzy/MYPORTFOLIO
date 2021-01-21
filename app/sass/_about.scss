@@ -13,6 +13,7 @@
 .about_profile{
     border-right: 5px solid var(--secondary-color);
     margin-right: 20px;
+    text-align: center;
 
 }
 .about_png{
@@ -22,8 +23,9 @@
     height: 100%;
 }
 .about_profile img{
-    width: 300px;
-    height: 300px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 @media screen and (max-width:768px){
