@@ -1,0 +1,15 @@
+// *SCROLL REVEAL*/ 
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: false
+})
+sr.reveal('.home_moto', {delay: 900})
+sr.reveal('.home_btn',{delay: 1300})
+sr.reveal('.home_bg', {origin:'right', delay: 400})
+
+
+sr.reveal('.about_biography')
+
+// ScrollReveal().reveal('.headline');

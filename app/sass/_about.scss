@@ -1,0 +1,40 @@
+.about_section{
+    
+}
+.about_info i{
+    margin-right: 10px;
+    font-size: 23px;
+}
+.wrapper_section>*{
+    width: 50%;
+    flex: 1 0 auto;
+    // padding: 0 clamp(4rem,10vw,10rem);
+}
+.about_profile{
+    border-right: 5px solid var(--secondary-color);
+    margin-right: 20px;
+
+}
+.about_png{
+    background-image: url(/MYPORTFOLIO/images/about.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.about_profile img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+@media screen and (max-width:768px){
+    .wrapper_section{
+        flex-direction: column;
+    }
+    .wrapper_section>*{
+        width: 100%;
+    }
+    .about_profile{
+        border: none;
+    
+    }
+}

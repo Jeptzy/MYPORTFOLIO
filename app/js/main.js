@@ -16,6 +16,3 @@ function linkAction(){
     burger.classList.remove('rotate_burger');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
-
-
-

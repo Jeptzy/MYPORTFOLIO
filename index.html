@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="app/sass/style.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/LogoPort.svg" type="image/x-icon">
 </head>
 <body>
     <header id="Home">
@@ -16,14 +17,14 @@
             <div class="main_menu flex flex_align_center">
                     <div>
                         <ul class="nav_menu flex">
-                            <li class="nav_link"><a href="#Home" class="nav_item active">Home</a></li>
-                            <li class="nav_link"><a href="#About" class="nav_item">About</a></li>
-                            <li class="nav_link"><a href="#Projects" class="nav_item">Projects</a></li>
-                            <li class="nav_link"><a href="#Contact" class="nav_item">Contact</a></li> 
+                            <li class="nav_link"><a href="#Home" class="nav_item active"><box-icon type='solid' name='home-smile'>Home</a></box-icon></i></li>
+                            <li class="nav_link"><a href="#About" class="nav_item">About & Skills</a></li>
+                            <li class="nav_link"><a href="#Projects" class="nav_item">Works & design</a></li>
+                            <li class="nav_link"><a href="#Contact" class="nav_item">Connect with me</a></li> 
                             <div class="social_icon">
-                                <a href="#"><i class='bx bxl-github'></i></a>
-                                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <span class="icon"><a href="#"><i class='bx bxl-github'></i></a></span>
+                                <span class="icon"><a href="#"><i class='bx bxl-facebook-circle' ></i></a></span>
+                                <span class="icon"><a href="#"><i class='bx bxl-instagram'></i></a></span>
                             </div>     
                         </ul>
                     </div>
@@ -37,19 +38,77 @@
                 </div>
             </div>
         </nav>
+        <!-- Home Section -->
         <section class="home_section container flex flex_align_center">
             <div class="home_title">
                 <h1 id="typing"></h1>
-                <p>If you're already a front-end developer,well pretend<br> you're also wearing a pirate hat.</p>
+                <p class="home_moto">If you're already a front-end developer,well pretend<br> you're also wearing a pirate hat.</p>
+               <div class="home_btn">
                 <button class="btn btn_resume">View Resume</button>
+               </div>
             </div>
             <div class="home_bg">
                 <img src="images/webdev.svg" alt="bgsvg">
             </div>
         </section>
+        <!-- About Section -->
+        <section class="about_section container " id="About">
+            <div><h1>Get to know about me</h1></div>
+            <div class="wrapper_section flex">
+                <div class="about_profile">
+                    <img src="images/profile.jpg" alt="profile">
+                    <div class="about_info">
+                        <p>Jeffrey G. Bermejo, 26</p>
+                        <p><i class='bx bxs-mouse'></i>- Bachelor of Science in Information Technology</p>
+                        <p><i class='bx bxs-graduation' ></i>- Graduated at STI College Balagtas</p>
+                    </div>
+                </div>
+                <div class="about_biography">
+                    <p>I'm Jeffrey an aspiring Front end web Developer, Based in Bulacan,Philippines. <br><br>and im passionate about making unique designs
+                        into an rensponsive and user friendly website.</p>
+                        <div class="about_png">
 
-    
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!-- SKILLS -->
+        <section class="skill_section container" id="skill">
+            <div><h1>Here are some technologies that i have been using<br> for my web dev career</h1></div>
+            <div class="skill_container flex flex_jc_between flex_wrap">
+                <div class="col">
+                    <img src="images/html5logo.png" alt="htmllogo">
+                </div>
+                <div class="col">
+                    <img src="images/csslogo.png" alt="css">
+                </div>
+                <div class="col">
+                    <img src="images/sasslogo.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="images/jslogo.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="images/jquerylogo.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="images/bootstraplogo.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="images/figmalogo.svg" alt="">
+                </div>
+            </div>
+        </section>
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>   
 <script src="app/js/main.js"></script>
 <script src="app/js/type.js"></script>
+<script src="app/js/scroll.js"></script>
+
+
+<script>
+
+
+</script>
 </body>
 </html>

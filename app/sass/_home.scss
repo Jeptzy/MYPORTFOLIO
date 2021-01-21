@@ -1,5 +1,5 @@
 .home_section{
-    background-color: var(--DarkSecondary_color);
+    background-color: var(--Dark_color);
     position: relative;
     
 }
@@ -25,6 +25,15 @@
         background-color: var(--text_muted);
     }
 }
+.home_bg{
+    position: relative;
+    .home_bg img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+
 @media screen and (max-width: 768px){
     .home_title{
         h1{
