@@ -14,5 +14,8 @@ sr.reveal('.about_biography')
 sr.reveal('.skill_title',{origin:'left', delay:900})
 sr.reveal('.col'), {delay: 1200}
 
+sr.reveal('.section_title',{origin:'left', delay:900})
+
+
 
 // ScrollReveal().reveal('.headline');

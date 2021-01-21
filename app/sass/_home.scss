@@ -44,11 +44,17 @@
     h1{
         font-size: 1.2rem;
     }
+    .section_title{
+        font-size: 1.3rem;
+    }
     .home_section{
         flex-direction: column;
     }
     .home_section>*{
         width: 100%;
+    }
+    .home_bg{
+        margin-top: 20%;
     }
 
 }

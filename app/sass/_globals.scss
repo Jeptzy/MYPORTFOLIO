@@ -22,7 +22,11 @@ ul li{
 }
 h1{
     font-size: 2.5rem;
-    color: var(--text_muted);
+    color: var(--text_gray);
+}
+.section_title{
+    font-size: 2.5rem;
+    color: var(--secondary-color);
 }
 .flex{
     display: flex;
@@ -48,7 +52,7 @@ h1{
     border: none;
 }
 .container{
-    height: 100vh;
+    height: 90vh;
     margin-top: 4.5rem;
     padding: 20px;
     position: relative;
