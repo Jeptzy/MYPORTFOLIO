@@ -21,12 +21,16 @@ ul li{
     list-style: none
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--text_gray);
 }
 .section_title{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--secondary-color);
+    font-weight: 600;
+}
+.text_justify{
+    text-align: justify;
 }
 .flex{
     display: flex;
@@ -45,6 +49,9 @@ h1{
      &_wrap{
          flex-wrap: wrap;
      }
+     &_column{
+        flex-direction: column;
+    }
 }
 .btn{
     padding: 0.6rem 1rem;

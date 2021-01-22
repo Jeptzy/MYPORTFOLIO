@@ -1,0 +1,24 @@
+.form_container{
+    box-shadow: 1px 1px 5px gray;
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+    position: relative;
+}
+input:not(:last-child){
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+}
+.btn_send{
+    @extend .btn_resume;
+}
+.contact_svg{
+    flex-basis: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

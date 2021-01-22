@@ -21,7 +21,7 @@
         position: absolute;
         top:3.5rem;
         right: -100%;
-        background-color: var(--Dark_color);
+        background-color: var(--DarkSecondary_color);
         height: 85vh;
         width: 70%;
         transition: 0.5 ease;
@@ -54,6 +54,16 @@
     }
     .skill_section{
         height: auto;
+    }
+    .home_section{
+        height: auto;
+    }
+    .header_profile{
+        height: 2rem;
+        width: 2rem;
+    }
+    .form_container{
+        flex-direction: column-reverse;
     }
 }
 

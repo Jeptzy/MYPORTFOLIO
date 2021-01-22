@@ -7,7 +7,7 @@ const sr = ScrollReveal({
 })
 sr.reveal('.home_moto', {delay: 900})
 sr.reveal('.home_btn',{delay: 1300})
-sr.reveal('.home_bg', {origin:'right', delay: 400})
+sr.reveal('.home_bg', { delay: 400})
 
 
 sr.reveal('.about_biography')
