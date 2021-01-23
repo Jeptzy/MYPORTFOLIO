@@ -55,12 +55,18 @@
         <section class="about_section container flex" id="About">
             <div><h1 class="section_title">Get to know about me.</h1></div>
             <div class="wrapper_section flex">
-                <div class="about_profile">
+                <div class="about_profile text_center">
                     <img src="images/profile.jpg" alt="profile">
                     <div class="about_info">
                         <p>Jeffrey G. Bermejo, 23</p>
-                        <p><i class='bx bxs-mouse'></i>- Bachelor of Science in Information Technology</p>
-                        <p><i class='bx bxs-graduation' ></i>- Graduated at STI College Balagtas</p>
+                        <div class="flex flex_align_center">
+                            <div><a href="#"><i class='bx bxs-mouse'></i></a></div>
+                            <div class="social_des"><p>- Bachelor of Science in Information Technology</p></div>
+                        </div>
+                        <div class="flex flex_align_center ">
+                            <div><a href="#"><i class='bx bxs-graduation' ></i></a></div>
+                            <div class="social_des "><p>- Graduated at STI College Balagtas</p></div>
+                        </div>
                     </div>
                 </div>
                 <div class="about_biography">
@@ -72,7 +78,7 @@
         <!-- SKILLS -->
         <section class="skill_section container flex" id="skill">
             <div class="skill_title"><h1 class="text_justify">Here are some technologies that i have been using for my web dev career.</h1></div>
-            <div class="skill_container flex flex_jc_between flex_wrap">
+            <div class="skill_container flex flex_wrap">
                 <div class="col_container">
                     <div class="col">
                         <img src="images/html5logo.png" alt="htmllogo">
@@ -119,12 +125,12 @@
         </section>
         <!-- CONTACT -->
         <section class="contact_section container" id="Contact">
-            <div><h1 class="section_title">Contact me here.</h1></div>
-            <div class="form_container flex flex_jc_around">
+            <div class="design"><h1 class="section_title">Reach me here.</h1></div>
+            <div class="form_container flex">
                 <div>
                     <form action="" class="">
-                        <input type="text" name="name" id="txtname" placeholder="Name*">
-                        <input type="email" name="email" id="txtEmail" placeholder="Email*">
+                        <input type="text" name="name" id="txtname" placeholder="Name*" required maxlength="30">
+                        <input type="email" name="email" id="txtEmail" placeholder="Email*" required maxlength="25">
                         <div>
                             <textarea name="message" id="txtmessage" cols="30" rows="10" placeholder="Message*"></textarea>
                         </div>
@@ -132,9 +138,40 @@
                     </form>
                 </div>
                 <div class="contact_svg">
-                    <img src="images/contact.png" alt="svgcontact">
+                    <p>Get in touch with me. Have a project? you want to collaborate with me? Send me a message or</p>
+                    <p>follow me on my social  media account.</p>
+                    <div class="social_icon_contact">
+                        <div class="flex flex_align_center">
+                            <div><a href="#"><i class='bx bxl-github'></i></a></div>
+                            <div class="social_des"><p><a href="https://github.com/Jeptzy/GithubID">Github</a></p></div>
+                        </div>
+                        <div class="flex flex_align_center">
+                            <div><a href="#"><i class='bx bxl-facebook-circle'></i></a></div>
+                            <div class="social_des"><p>Facebook</p></div>
+                        </div>
+                        <div class="flex flex_align_center">
+                            <div><i class='bx bxl-instagram'></i></div>
+                            <div class="social_des"><p>Instagram</p></div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section>
+            <footer class="">
+                <div class="footer">
+                    <div class="footer_logo"><img src="images/LogoPort.svg" alt="logo"></div>
+                    <div><h2 class="text_center">Social Media links</h2></div>
+                    <div class="footer_social">
+                        <span class="icon"><a href="#"><i class='bx bxl-github'></i></a></span>
+                        <span class="icon"><a href="#"><i class='bx bxl-facebook-circle' ></i></a></span>
+                        <span class="icon"><a href="#"><i class='bx bxl-instagram'></i></a></span>
+                    </div>
+                </div>
+                <div class="copy text_center">
+                    <p>Code and Design by Jeffrey Bermejo. &copy; 2020</p>
+                </div>
+            </footer>
         </section>
 <!-- scroll reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>   

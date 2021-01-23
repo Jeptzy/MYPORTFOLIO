@@ -1,0 +1,32 @@
+footer{
+    background-color: var(--Dark_color);
+    padding: 50px 0px 0px 0px;
+}
+.footer_logo{
+    @extend .logo;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+h2{
+    color: var(--text_gray);
+}
+.copy{
+    background-color: var(--secondary-color);
+    color: var(--text_white);
+    font-size: 0.8rem;
+    padding: 2px;
+}
+.footer_social{
+    
+    .icon{
+        i{
+            font-size: 2rem;
+            color: var(--text_gray);
+        }
+    }
+}

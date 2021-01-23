@@ -1,6 +1,8 @@
 .skill_section{
     flex-direction: column;
-    background-color: var(--Dark_color); 
+    background-color: var(--Dark_color);
+    height: auto;
+    padding: 100px 20px;
 }
 .col_container{
     text-align: center;
@@ -9,11 +11,12 @@
     }
 }
 .col{
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     border-radius: 25px;
     background-color: var(--DarkSecondary_color);
     padding: 10px;
+    margin: 10px;
     margin-top: 15px;
     img{
         width: 100%;
@@ -22,7 +25,8 @@
 }
 @media screen and (max-width: 468px){
     .col{
-        height: 90px;
-        width: 90px;
+        height: 50px;
+        width: 50px;
+        justify-content: flex-start;
     }
 }
