@@ -5,8 +5,8 @@ const sr = ScrollReveal({
     duration: 2000,
     reset: false
 })
-sr.reveal('.home_moto', {delay: 900})
-sr.reveal('.home_btn',{delay: 1300})
+sr.reveal('.home_moto', {delay: 1100})
+sr.reveal('.home_btn',{delay: 1500})
 sr.reveal('.home_bg', { delay: 400})
 
 
@@ -19,3 +19,16 @@ sr.reveal('.section_title',{origin:'left', delay:900})
 
 
 // ScrollReveal().reveal('.headline');
+var navBarup = document.querySelector('.nav');
+
+var lastScrollTop = 0;
+    navBar = document.querySelector('.nav');
+    window.addEventListener("scroll", function(){
+        var scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+        if(scrollTop > lastScrollTop){
+            navBar.style.top = "-80px";
+        } else{
+            navBar.style.top = "0";
+        }
+        lastScrollTop = scrollTop;
+    })
