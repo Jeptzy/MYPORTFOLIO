@@ -465,6 +465,12 @@ header {
   padding: 100px 20px;
 }
 
+.skill_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .col_container {
   text-align: center;
 }
