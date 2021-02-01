@@ -11,8 +11,11 @@ footer{
             @extend .logo;
         }
         .footer_social{
-    
+            
             .icon{
+                &:not(:last-child){
+                    margin-right: 20px;
+                }
                 i{
                     font-size: 2rem;
                     color: var(--text_gray);

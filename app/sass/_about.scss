@@ -25,15 +25,3 @@
     position: relative;
     text-align: justify;
 }
-@media screen and (max-width:768px){
-    .wrapper_section{
-        flex-direction: column;
-    }
-    .wrapper_section>*{
-        width: 100%;
-    }
-    .about_profile{
-        border: none;
-    
-    }
-}

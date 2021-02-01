@@ -16,6 +16,8 @@ sr.reveal('.col'), {delay: 1200}
 
 sr.reveal('.section_title',{origin:'left', delay:900})
 
+sr.reveal('.ui-card',{origin:'bottom', delay:900})
+
 
 
 // ScrollReveal().reveal('.headline');

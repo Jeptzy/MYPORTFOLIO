@@ -1,5 +1,5 @@
 //NAVIGATION BAR MOBILE
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
     body{
         overflow-x: hidden;
     }
@@ -65,6 +65,60 @@
     .form_container{
         flex-direction: column-reverse;
 
+    }
+}
+// about
+@media screen and (max-width:768px){
+    .wrapper_section{
+        flex-direction: column;
+    }
+    .wrapper_section>*{
+        width: 100%;
+    }
+    .about_profile{
+        border: none;
+    
+    }
+}
+// home
+@media screen and (max-width: 768px){
+    .home_title{
+        padding-top: 40px;
+        h1{
+            font-size: 1.2rem;
+        }
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    .section_title{
+        font-size: 1.3rem;
+    }
+    .home_section{
+        flex-direction: column;
+    }
+    .home_section>*{
+        width: 100%;
+    }
+    .home_bg{
+        margin-top: 20%;
+    }
+
+}
+// projects
+@media screen and (max-width:468px){
+    .wrapper{
+		.ui-card{
+			height: 280px;
+		}
+	}
+}
+// skills
+@media screen and (max-width: 468px){
+    .col{
+        height: 50px;
+        width: 50px;
+        justify-content: flex-start;
     }
 }
 

@@ -65,6 +65,7 @@ h1 {
   font-size: 2rem;
   color: var(--secondary-color);
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .text_justify {
@@ -123,10 +124,17 @@ h1 {
 }
 
 .container {
-  height: 90vh;
   margin-top: 4.5rem;
-  padding: 20px;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
   position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -263,7 +271,7 @@ header {
 .home_section {
   background-color: var(--Dark_color);
   position: relative;
-  height: auto;
+  height: 80vh;
 }
 
 .home_section > * {
@@ -329,7 +337,7 @@ header {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   body {
     overflow-x: hidden;
   }
@@ -521,6 +529,7 @@ header {
   gap: 4em;
   position: relative;
   background-color: var(--text_white);
+  margin-bottom: 50px;
 }
 
 input:not(:last-child) {
@@ -542,6 +551,10 @@ input, textarea {
   display: flex;
   color: var(--secondary-color);
   font-size: 25px;
+}
+
+.social_icon_contact a {
+  color: var(--DarkSecondary_color);
 }
 
 .social_des {
@@ -574,6 +587,10 @@ footer .footer {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px;
+}
+
+footer .footer .footer_social .icon:not(:last-child) {
+  margin-right: 20px;
 }
 
 footer .footer .footer_social .icon i {
@@ -635,11 +652,10 @@ h2 {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 15px;
+  padding: 15px 0px;
   width: 100%;
   text-align: center;
   color: #fff;
-  font-size: 18px;
 }
 
 .ui-card .description h3 {
@@ -665,14 +681,14 @@ h2 {
   color: #fff;
   background: var(--secondary-color);
   display: inline-block;
-  padding: 10px 25px;
+  padding: 5px 15px;
   border-radius: 5px;
   text-decoration: none;
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
-  -webkit-transition: all 0.3s ease-out 0.4s;
-  transition: all 0.3s ease-out 0.4s;
+  -webkit-transition: all 0.3s ease-out 0.2s;
+  transition: all 0.3s ease-out 0.2s;
 }
 
 .ui-card .description a:hover {

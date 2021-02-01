@@ -33,11 +33,10 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding: 15px;
+	padding: 15px 0px;
 	width: 100%;
 	text-align: center;
 	color: #fff;
-	font-size: 18px;
 }
 .ui-card .description h3{
 	font-weight: 700;
@@ -57,12 +56,12 @@
 	color: #fff;
 	background: var(--secondary-color);
 	display: inline-block;
-	padding: 10px 25px;
+	padding: 5px 15px;
 	border-radius: 5px;
 	text-decoration: none;
 	transform: translateY(30px);
 	opacity: 0;
-	transition: all 0.3s ease-out 0.4s;
+	transition: all 0.3s ease-out 0.2s;
 }
 .ui-card .description a:hover{
 	background:var(--Dark_color);
@@ -80,10 +79,4 @@
 	transform: translateY(0px);
 }
 
-@media screen and (max-width:468px){
-    .wrapper{
-		.ui-card{
-			height: 280px;
-		}
-	}
-}
+
