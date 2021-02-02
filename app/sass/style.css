@@ -385,21 +385,6 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper_section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .wrapper_section > * {
-    width: 100%;
-  }
-  .about_profile {
-    border: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
   .home_title {
     padding-top: 40px;
   }
@@ -429,16 +414,6 @@ header {
 @media screen and (max-width: 468px) {
   .wrapper .ui-card {
     height: 280px;
-  }
-}
-
-@media screen and (max-width: 468px) {
-  .col {
-    height: 50px;
-    width: 50px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
   }
 }
 
@@ -479,6 +454,21 @@ header {
   text-align: justify;
 }
 
+@media screen and (max-width: 768px) {
+  .wrapper_section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper_section > * {
+    width: 100%;
+  }
+  .about_profile {
+    border: none;
+  }
+}
+
 .skill_section {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -516,6 +506,16 @@ header {
 .col img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 468px) {
+  .col {
+    height: 50px;
+    width: 50px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 .contact_section {

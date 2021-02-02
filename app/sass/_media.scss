@@ -68,18 +68,7 @@
     }
 }
 // about
-@media screen and (max-width:768px){
-    .wrapper_section{
-        flex-direction: column;
-    }
-    .wrapper_section>*{
-        width: 100%;
-    }
-    .about_profile{
-        border: none;
-    
-    }
-}
+
 // home
 @media screen and (max-width: 768px){
     .home_title{
@@ -114,11 +103,5 @@
 	}
 }
 // skills
-@media screen and (max-width: 468px){
-    .col{
-        height: 50px;
-        width: 50px;
-        justify-content: flex-start;
-    }
-}
+
 
