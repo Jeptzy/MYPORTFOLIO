@@ -44,7 +44,7 @@
                 <h1 id="typing"></h1>
                 <p class="home_moto">If you're already a front-end developer,well pretend<br> you're also wearing a pirate hat.</p>
                <div class="home_btn">
-                <button class="btn btn_resume">View Resume</button>
+                 <a href="media/resumejb.pdf"><button class="btn btn_resume">View Resume</button></a>
                </div>
             </div>
             <div class="home_bg">
@@ -168,7 +168,7 @@
                         <div>
                             <textarea name="message" id="txtmessage" cols="30" rows="10" placeholder="Message*"></textarea>
                         </div>
-                        <button type="submit" class="btn btn_send">SEND</button>
+                        <button type="submit" class="btn btn_send" onclick="clearfields()">SEND</button>
                     </form>
                 </div>
                 <div class="contact_svg">
@@ -191,7 +191,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <!-- FOOTER -->
             <footer class="">
                 <div class="footer">
                     <div class="footer_logo"><img src="images/LogoPort.svg" alt="logo"></div>
@@ -206,10 +206,10 @@
                     <p> &copy; Jeffrey Bermejo. 2020</p>
                 </div>
             </footer>
-        </section>
 <!-- scroll reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>   
 <script src="app/js/main.js"></script>
+<script src="app/js/contactform.js"></script>
 <script src="app/js/type.js"></script>
 <script src="app/js/scroll.js"></script>
 </body>
