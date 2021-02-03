@@ -23,7 +23,7 @@
 }
 .about_biography{
     position: relative;
-    text-align: justify;
+    text-align: left;
 }
 @media screen and (max-width:768px){
     .wrapper_section{
@@ -35,5 +35,8 @@
     .about_profile{
         border: none;
     
+    }
+    .about_biography{
+        text-align: justify;
     }
 }
