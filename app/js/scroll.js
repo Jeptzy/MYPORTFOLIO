@@ -12,7 +12,7 @@ sr.reveal('.home_bg', { delay: 400})
 
 sr.reveal('.about_biography')
 sr.reveal('.skill_title',{origin:'left', delay:900})
-sr.reveal('.col'), {delay: 1200}
+sr.reveal('.col',{origin:'bottom', delay:1200})
 
 sr.reveal('.section_title',{origin:'left', delay:900})
 

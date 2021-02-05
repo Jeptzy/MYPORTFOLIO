@@ -29,15 +29,34 @@ input,textarea{
     position: relative;
         i{
             display: flex;
-            color: var(--secondary-color);
-            font-size: 25px;
+            font-size: 30px;
         }
+       
         
+}
+.social_icon_contact :nth-child(1) i{
+    color: #C9510C;
+}
+.social_icon_contact :nth-child(2) i{
+    color: #4267B2;
+}
+.social_icon_contact :nth-child(3) i{
+    background: -webkit-linear-gradient( #fdc468, #df4996);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 .social_icon_contact {
     a{
         color: var(--DarkSecondary_color);
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: var(--secondary-color);
+            font-weight: 500;
+            
+        }
     }
+    
 }
 .social_des{
     margin-left: 10px;

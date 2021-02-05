@@ -558,12 +558,32 @@ input, textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: var(--secondary-color);
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.social_icon_contact :nth-child(1) i {
+  color: #C9510C;
+}
+
+.social_icon_contact :nth-child(2) i {
+  color: #4267B2;
+}
+
+.social_icon_contact :nth-child(3) i {
+  background: -webkit-linear-gradient(#fdc468, #df4996);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social_icon_contact a {
   color: var(--DarkSecondary_color);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_icon_contact a:hover {
+  color: var(--secondary-color);
+  font-weight: 500;
 }
 
 .social_des {
@@ -663,7 +683,7 @@ h2 {
 
 .ui-card .description {
   position: absolute;
-  bottom: 0;
+  bottom: 10vh;
   left: 0;
   padding: 15px 0px;
   width: 100%;
@@ -700,6 +720,7 @@ h2 {
   -webkit-transform: translateY(30px);
           transform: translateY(30px);
   opacity: 0;
+  font-size: 14px;
   -webkit-transition: all 0.3s ease-out 0.2s;
   transition: all 0.3s ease-out 0.2s;
 }
