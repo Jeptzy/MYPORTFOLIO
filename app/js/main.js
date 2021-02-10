@@ -16,3 +16,12 @@ function linkAction(){
     burger.classList.remove('rotate_burger');
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
+
+window.onclick = function(event){
+    if(event.target.closest('.nav_menu')){
+        navMenu.classList.remove('show_nav');
+        burger.classList.remove('rotate_burger');
+    }
+}
+
+
