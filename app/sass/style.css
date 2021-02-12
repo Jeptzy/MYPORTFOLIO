@@ -704,7 +704,7 @@ h2 {
 
 .ui-card .description a {
   color: #fff;
-  background: var(--secondary-color);
+  background: var(--Dark_color);
   display: inline-block;
   padding: 5px 15px;
   border-radius: 5px;
@@ -715,10 +715,11 @@ h2 {
   font-size: 14px;
   -webkit-transition: all 0.3s ease-out 0.2s;
   transition: all 0.3s ease-out 0.2s;
+  border: 2px solid var(--secondary-color);
 }
 
 .ui-card .description a:hover {
-  background: var(--Dark_color);
+  background: var(--secondary-color);
 }
 
 .ui-card:hover .description h3 {
