@@ -459,6 +459,9 @@ header {
   .about_profile {
     border: none;
   }
+  .about_college_info {
+    text-align: center;
+  }
   .about_biography {
     text-align: justify;
   }
@@ -478,6 +481,8 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 .col_container {
