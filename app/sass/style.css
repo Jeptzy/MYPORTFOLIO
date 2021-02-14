@@ -628,6 +628,10 @@ footer .footer .footer_social .icon i {
   color: var(--text_gray);
 }
 
+footer .footer .socmed_text {
+  font-size: 0.7rem;
+}
+
 footer .copy {
   background-color: var(--secondary-color);
   color: var(--text_white);
