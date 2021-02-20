@@ -23,6 +23,12 @@ input,textarea{
 }
 .btn_send{
     @extend .btn_resume;
+    padding: 5px 20px;
+    &:hover{
+        color: black;
+        border: 1px solid black;
+        font-weight: bold;
+    }
 }
 .social_icon_contact
 {

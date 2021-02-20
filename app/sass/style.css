@@ -65,7 +65,8 @@ h1 {
   font-size: 2rem;
   color: var(--Dark_color);
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .text_justify {
@@ -125,7 +126,7 @@ h1 {
 
 .container {
   margin-top: 3rem;
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 3rem;
@@ -263,7 +264,8 @@ header {
 .home_section {
   background-color: var(--Dark_color);
   position: relative;
-  height: 80vh;
+  height: 100vh;
+  margin-top: 4.5rem;
 }
 
 .home_section > * {
@@ -285,11 +287,14 @@ header {
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .btn_resume:hover, .btn_send:hover {
   color: var(--DarkSecondary_color);
-  background-color: var(--text_muted);
+  background-color: transparent;
+  border: 1px solid var(--text_gray);
+  color: #fff;
 }
 
 .home_bg {
@@ -377,6 +382,10 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .home_title {
     padding-top: 40px;
   }
@@ -446,6 +455,22 @@ header {
   text-align: left;
 }
 
+.about_biography .sti_con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_biography .sti_con img {
+  height: 45px;
+  width: 70px;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .wrapper_section {
     -webkit-box-orient: vertical;
@@ -460,7 +485,10 @@ header {
     border: none;
   }
   .about_college_info {
-    text-align: center;
+    text-align: left;
+  }
+  .about_college_info .course {
+    font-size: 13px;
   }
   .about_biography {
     text-align: justify;
@@ -547,6 +575,16 @@ input, textarea {
   padding: 10px 5px;
 }
 
+.btn_send {
+  padding: 5px 20px;
+}
+
+.btn_send:hover {
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+}
+
 .social_icon_contact {
   position: relative;
 }
@@ -617,6 +655,10 @@ footer .footer {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px;
+}
+
+footer .footer .footer_logo {
+  margin-bottom: 20px;
 }
 
 footer .footer .footer_social .icon:not(:last-child) {

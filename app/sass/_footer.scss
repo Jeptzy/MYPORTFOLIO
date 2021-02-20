@@ -9,6 +9,7 @@ footer{
         margin: 10px;
         .footer_logo{
             @extend .logo;
+            margin-bottom: 20px;
         }
         .footer_social{
             

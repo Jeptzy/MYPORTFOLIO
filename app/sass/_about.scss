@@ -24,6 +24,17 @@
 .about_biography{
     position: relative;
     text-align: left;
+    .sti_con{
+        display: flex;
+        align-items: center;
+        
+        img{
+            height: 45px;
+            width: 70px;
+            border-radius: 6px;
+            margin-right: 20px;
+        }
+    }
 }
 @media screen and (max-width:768px){
     .wrapper_section{
@@ -37,7 +48,12 @@
     
     }
     .about_college_info{
-        text-align: center;
+        text-align: left;
+        
+            .course{
+                font-size: 13px;
+            }
+      
     }
     .about_biography{
         text-align: justify;
