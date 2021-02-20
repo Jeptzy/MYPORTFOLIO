@@ -266,6 +266,7 @@ header {
   position: relative;
   height: 100vh;
   margin-top: 4.5rem;
+  padding-bottom: 5rem;
 }
 
 .home_section > * {
@@ -468,7 +469,7 @@ header {
   height: 45px;
   width: 70px;
   border-radius: 6px;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 768px) {
