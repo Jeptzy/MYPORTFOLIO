@@ -264,7 +264,7 @@ header {
 .home_section {
   background-color: var(--Dark_color);
   position: relative;
-  height: 90vh;
+  height: 80vh;
   margin-top: 4.5rem;
 }
 
