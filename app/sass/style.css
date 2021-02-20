@@ -129,7 +129,7 @@ h1 {
   padding-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 3rem;
+  margin-bottom: 1.5rem;
   position: relative;
 }
 
@@ -266,7 +266,6 @@ header {
   position: relative;
   height: 100vh;
   margin-top: 4.5rem;
-  padding-bottom: 5rem;
 }
 
 .home_section > * {
