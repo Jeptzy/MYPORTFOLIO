@@ -672,7 +672,6 @@ footer .footer .socmed_text {
 }
 
 footer .copy {
-  background-color: var(--secondary-color);
   color: var(--text_white);
   font-size: 0.8rem;
   padding: 2px;
