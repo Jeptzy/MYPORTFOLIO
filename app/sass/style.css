@@ -400,7 +400,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: auto;
   }
   .home_section > * {
     width: 100%;

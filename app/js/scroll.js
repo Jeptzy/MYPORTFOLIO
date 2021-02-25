@@ -10,7 +10,7 @@ sr.reveal('.home_btn',{delay: 1500})
 sr.reveal('.home_bg', { delay: 400})
 
 
-sr.reveal('.about_biography')
+sr.reveal('.about_biography',{origin:'bottom', delay:900})
 sr.reveal('.skill_title',{origin:'left', delay:900})
 sr.reveal('.col',{origin:'bottom', delay:1200})
 
