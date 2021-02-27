@@ -5,7 +5,7 @@
     width: 100%;
 }
 .form_container{
-    box-shadow: 1px 1px 5px gray;
+    box-shadow: #DDDDDD 0 0 0 1px inset;
     width: 80%;
     margin: -6% auto 0 auto;
     padding: 50px 10px;
@@ -75,6 +75,7 @@ input,textarea{
     background-attachment: fixed;
     opacity: 0.90;
     padding: 60px 15px;
+    margin-top: 50px;
    
     h1{
         color: var(--text_gray);

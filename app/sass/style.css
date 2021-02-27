@@ -61,12 +61,34 @@ h1 {
   color: var(--text_gray);
 }
 
+.title_holder {
+  text-align: center;
+}
+
 .section_title {
   font-size: 2rem;
   color: var(--Dark_color);
   font-weight: 600;
   margin-bottom: 50px;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section_title::before {
+  content: '';
+  display: inline-block;
+  height: 50px;
+  width: 8px;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  margin-right: 20px;
 }
 
 .text_justify {
@@ -552,8 +574,8 @@ header {
 }
 
 .form_container {
-  -webkit-box-shadow: 1px 1px 5px gray;
-          box-shadow: 1px 1px 5px gray;
+  -webkit-box-shadow: #DDDDDD 0 0 0 1px inset;
+          box-shadow: #DDDDDD 0 0 0 1px inset;
   width: 80%;
   margin: -6% auto 0 auto;
   padding: 50px 10px;
@@ -630,6 +652,7 @@ input, textarea {
   background-attachment: fixed;
   opacity: 0.90;
   padding: 60px 15px;
+  margin-top: 50px;
 }
 
 .design h1 {
@@ -704,8 +727,8 @@ h2 {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   background: radial-gradient(#111 50%, #000 100%);
-  -webkit-box-shadow: 2px 1px 5px black;
-          box-shadow: 2px 1px 5px black;
+  -webkit-box-shadow: #DDDDDD 0 0 0 1px inset;
+          box-shadow: #DDDDDD 0 0 0 1px inset;
   margin: 10px;
 }
 

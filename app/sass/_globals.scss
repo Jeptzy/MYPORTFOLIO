@@ -23,12 +23,26 @@ h1{
     font-size: 2rem;
     color: var(--text_gray);
 }
+.title_holder{
+    text-align: center;
+}
 .section_title{
     font-size: 2rem;
     color: var(--Dark_color);
     font-weight: 600;
     margin-bottom: 50px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        &::before{
+            content: '';
+            display: inline-block;
+            height: 50px;
+            width: 8px;
+            border-radius: 4px;
+            background-color: var(--secondary-color);
+            margin-right: 20px;
+        }
 }
 .text_justify{
     text-align: justify;
