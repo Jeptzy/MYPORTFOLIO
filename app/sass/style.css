@@ -433,6 +433,9 @@ header {
   .home_title p {
     padding-right: 0px;
   }
+  .home_title .btn_resume, .home_title .btn_send {
+    width: 60%;
+  }
   h1 {
     font-size: 1.2rem;
   }
