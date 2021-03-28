@@ -243,7 +243,7 @@ header {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #26935c;
   position: absolute;
   bottom: 0;
   right: -3%;
@@ -315,6 +315,7 @@ header {
 
 .home_title p {
   color: var(--text_muted);
+  padding-right: 200px;
 }
 
 .btn_resume, .btn_send {
@@ -421,9 +422,13 @@ header {
   }
   .home_title {
     padding-top: 40px;
+    text-align: center;
   }
   .home_title h1 {
     font-size: 1.5rem;
+  }
+  .home_title p {
+    padding-right: 0px;
   }
   h1 {
     font-size: 1.2rem;
