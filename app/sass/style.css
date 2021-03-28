@@ -173,7 +173,7 @@ header {
 .nav {
   -webkit-box-shadow: 1px 1px 8px var(--text_muted);
           box-shadow: 1px 1px 8px var(--text_muted);
-  background-color: var(--Dark_color);
+  background-color: var(--DarkSecondary_color);
   height: var(--header_height);
   padding: 10px;
   position: fixed;
@@ -301,7 +301,8 @@ header {
   background-color: var(--Dark_color);
   position: relative;
   height: 83vh;
-  margin-top: 4.5rem;
+  margin-top: 4.3rem;
+  padding-bottom: 1rem;
 }
 
 .home_section > * {
@@ -325,12 +326,14 @@ header {
   transition: 0.3s linear;
   border-radius: 3px;
   cursor: pointer;
+  -webkit-box-shadow: 0 10px 20px -10px var(--secondary-color);
+          box-shadow: 0 10px 20px -10px var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .btn_resume:hover, .btn_send:hover {
   color: var(--DarkSecondary_color);
   background-color: transparent;
-  border: 1px solid var(--text_gray);
   color: #fff;
 }
 
