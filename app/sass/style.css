@@ -311,7 +311,7 @@ header {
 
 .home_title h1 {
   font-size: 2.5rem;
-  color: var(--text_gray);
+  color: var(--text_white);
 }
 
 .home_title p {
@@ -324,7 +324,7 @@ header {
   color: var(--text_gray);
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
-  border-radius: 3px;
+  border-radius: 17px;
   cursor: pointer;
   -webkit-box-shadow: 0 10px 20px -10px var(--secondary-color);
           box-shadow: 0 10px 20px -10px var(--secondary-color);
@@ -434,7 +434,7 @@ header {
     padding-right: 0px;
   }
   .home_title .btn_resume, .home_title .btn_send {
-    width: 60%;
+    width: 80%;
   }
   h1 {
     font-size: 1.2rem;

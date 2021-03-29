@@ -12,7 +12,7 @@
 .home_title{
     h1{
         font-size: 2.5rem;
-        color: var(--text_gray);
+        color: var(--text_white);
     }
     p{
         color: var(--text_muted);
@@ -23,7 +23,7 @@
     background-color: var(--secondary-color);
     color: var(--text_gray);
     transition: 0.3s linear;
-    border-radius: 3px;
+    border-radius: 17px;
     cursor: pointer;
     box-shadow: 0 10px 20px -10px var(--secondary-color);
     border: 1px solid var(--secondary-color);
