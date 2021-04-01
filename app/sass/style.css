@@ -147,7 +147,7 @@ h1 {
 }
 
 .container {
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding-top: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -329,6 +329,7 @@ header {
   -webkit-box-shadow: 0 10px 20px -10px var(--secondary-color);
           box-shadow: 0 10px 20px -10px var(--secondary-color);
   border: 1px solid var(--secondary-color);
+  font-weight: bold;
 }
 
 .btn_resume:hover, .btn_send:hover {
@@ -546,7 +547,7 @@ header {
           flex-direction: column;
   background-color: var(--Dark_color);
   height: auto;
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 
 .skill_container {
