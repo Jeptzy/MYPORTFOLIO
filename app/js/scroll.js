@@ -19,6 +19,10 @@ sr.reveal('.section_title',{origin:'left', delay:900})
 sr.reveal('.ui-card',{origin:'bottom', delay:900})
 
 
+sr.reveal('.ser1',{origin:'left', delay:900})
+sr.reveal('.ser2',{origin:'right', delay:1000})
+sr.reveal('.ser3',{origin:'left', delay:1100})
+
 
 // ScrollReveal().reveal('.headline');
 var navBarup = document.querySelector('.nav');

@@ -1,0 +1,35 @@
+.services_section{
+    .services_wrapper{
+        justify-content: center;
+        align-content: space-between;
+        column-gap: 2rem;
+        img{
+            height: 50px;
+            width: 50px;
+        }
+        .services_card{
+            padding: 20px;
+            box-shadow: 4px 4px 15px -6px ;
+            border-radius: 8px;
+            max-width: 380px;
+            margin-top: 20px;
+            flex-grow: 1;
+           
+        }
+        .services_desc{
+            h1{
+                font-size: 1.1rem;
+                color: var(--secondary-color);
+            }
+            p{
+                color: #455065;
+            }
+        }
+    }
+}
+@media screen and (max-width: 774px){
+    .services_wrapper{
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+}
