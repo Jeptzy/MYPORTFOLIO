@@ -141,17 +141,16 @@ h1 {
 }
 
 .btn {
-  padding: 0.6rem 1rem;
+  padding: 0.9rem 1.5rem;
   outline: none;
   border: none;
 }
 
 .container {
-  margin-top: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 3rem;
   position: relative;
 }
 
@@ -672,11 +671,7 @@ input, textarea {
 }
 
 .design {
-  background-image: url("../js/parallaximg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  opacity: 0.90;
+  background-color: var(--Dark_color);
   padding: 60px 15px;
   margin-top: 50px;
 }
