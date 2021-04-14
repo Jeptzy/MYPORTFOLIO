@@ -38,6 +38,7 @@
 .home_bg{
     position: relative;
     svg{
+        animation: floatbg 6s ease-in-out infinite;
         max-height: 500px;
         width: 100%;
     }
@@ -46,5 +47,16 @@
         width: 100%;
         position: absolute;
     }
+}
+@keyframes floatbg {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
 }
 

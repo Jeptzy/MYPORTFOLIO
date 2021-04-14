@@ -17,11 +17,18 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-window.onclick = function(event){
-    if(event.target.closest('.nav_menu')){
-        navMenu.classList.remove('show_nav');
-        burger.classList.remove('rotate_burger');
-    }
-}
+// window.onclick = function(event){
+//     if(event.target.closest('.nav_menu')){
+//         navMenu.classList.remove('show_nav');
+//         burger.classList.remove('rotate_burger');
+//     }
+// }
 
+const toggleBtn = document.querySelector('.toggle');
+const body = document.querySelector('body');
+
+toggleBtn.addEventListener('click', ()=>{
+    toggleBtn.classList.toggle('tog_active')
+    body.classList.toggle('light');
+})
 

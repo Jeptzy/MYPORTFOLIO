@@ -1,0 +1,29 @@
+body.light{
+    background-color: white;
+}
+body.light .nav{
+    background-color: white;
+}
+body.light a{
+    color: black;
+}
+body.light .nav_menu{
+    background-color: white;
+}
+body.light .home_section{
+    background-color: white;
+}
+body.light .home_title>h1{
+    color: var(--DarkSecondary_color);
+}
+body.light .skill_section{
+    background-color: white;
+}
+body.light .skill_title h1{
+    color: var(--DarkSecondary_color);
+}
+
+body.light .col{
+    background-color: white;
+    // box-shadow: 0 10px 30px -5px rgb(0 0 0 / 5%);
+}
