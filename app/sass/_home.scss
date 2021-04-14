@@ -16,7 +16,7 @@
     }
     p{
         color: var(--text_muted);
-        padding-right: 200px;
+        
     }
 }
 .btn_resume{
@@ -37,6 +37,10 @@
 }
 .home_bg{
     position: relative;
+    svg{
+        max-height: 500px;
+        width: 100%;
+    }
     .home_bg img{
         height: 100%;
         width: 100%;
