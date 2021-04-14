@@ -1,4 +1,9 @@
 .services_section{
+    .services_title{
+        h1{
+            color: var(--DarkSecondary_color);
+        }
+    }
     .services_wrapper{
         justify-content: center;
         align-content: space-between;
@@ -9,7 +14,9 @@
         }
         .services_card{
             padding: 20px;
-            box-shadow: 4px 4px 15px -6px ;
+            background-color: #fafafa;
+            // box-shadow: 4px 4px 15px -6px ;
+            box-shadow: 4px 4px 25px -6px;
             border-radius: 8px;
             max-width: 380px;
             margin-top: 20px;
@@ -19,7 +26,7 @@
         .services_desc{
             h1{
                 font-size: 1.1rem;
-                color: var(--secondary-color);
+                color: var(--DarkSecondary_color);
             }
             p{
                 color: #455065;

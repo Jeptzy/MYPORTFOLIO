@@ -540,6 +540,10 @@ header {
   }
 }
 
+.services_section .services_title h1 {
+  color: var(--DarkSecondary_color);
+}
+
 .services_section .services_wrapper {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -557,8 +561,9 @@ header {
 
 .services_section .services_wrapper .services_card {
   padding: 20px;
-  -webkit-box-shadow: 4px 4px 15px -6px;
-          box-shadow: 4px 4px 15px -6px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 4px 4px 25px -6px;
+          box-shadow: 4px 4px 25px -6px;
   border-radius: 8px;
   max-width: 380px;
   margin-top: 20px;
@@ -569,7 +574,7 @@ header {
 
 .services_section .services_wrapper .services_desc h1 {
   font-size: 1.1rem;
-  color: var(--secondary-color);
+  color: var(--DarkSecondary_color);
 }
 
 .services_section .services_wrapper .services_desc p {
