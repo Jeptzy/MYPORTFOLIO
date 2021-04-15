@@ -1,12 +1,14 @@
 const burger = document.querySelector('.burger');
 const navMenu = document.querySelector('.nav_menu');
 const navLink = document.querySelectorAll('.nav_item');
+const sideBarMask = document.querySelector('.sidebar_mask');
 
 
 
 burger.addEventListener('click', function(){
     navMenu.classList.toggle('show_nav');
     burger.classList.toggle('rotate_burger');
+    sideBarMask.classList.toggle('sidebar_mask_On')
 })
 
 function linkAction(){
@@ -14,6 +16,7 @@ function linkAction(){
     this.classList.add('active')
     navMenu.classList.remove('show_nav');
     burger.classList.remove('rotate_burger');
+   
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 

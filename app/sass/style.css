@@ -180,7 +180,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 30000;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
@@ -303,6 +303,7 @@ header {
 }
 
 .toggle {
+  margin-top: 20px;
   position: relative;
   top: 0vh;
   right: 0vw;
@@ -310,7 +311,7 @@ header {
   background: white;
   border: 2px solid #03506f;
   width: 45px;
-  height: 23px;
+  height: 20px;
   cursor: pointer;
   border-radius: 20px;
   -webkit-transition: 0.5s;
@@ -323,7 +324,7 @@ header {
   top: 0.5px;
   left: 2px;
   width: 20px;
-  height: 20px;
+  height: 19px;
   background: #03506f;
   border-radius: 50%;
   -webkit-transition: 0.5s;
@@ -331,7 +332,7 @@ header {
 }
 
 .toggle.tog_active::before {
-  left: 25px;
+  left: 22px;
   background: white;
 }
 
@@ -458,8 +459,8 @@ header {
         -ms-flex-align: center;
             align-items: center;
     padding-top: 50px;
-    -webkit-transition: 0.3s linear;
-    transition: 0.3s linear;
+    -webkit-transition: 0.2s linear;
+    transition: 0.2s linear;
     z-index: 100;
   }
   .nav_menu a {
@@ -1047,5 +1048,20 @@ body.light .skill_title h1 {
 
 body.light .col {
   background-color: white;
+}
+
+.sidebar_mask {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.sidebar_mask_On {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 30000;
     transition: 0.5s ease-in-out;
 }
 .nav_link{
@@ -127,6 +127,7 @@ header{
 }
 
 .toggle{
+    margin-top: 20px;
     position: relative;
     top: 0vh;
     right: 0vw;
@@ -134,7 +135,7 @@ header{
     background: white;
     border: 2px solid #03506f;
     width: 45px;
-    height: 23px;
+    height: 20px;
     cursor: pointer;
     border-radius: 20px;
     transition: 0.5s;
@@ -146,12 +147,12 @@ header{
     top: 0.5px;
     left: 2px;
     width: 20px;
-    height: 20px;
+    height: 19px;
     background: #03506f;
     border-radius: 50%;
     transition: 0.5s;
 }
 .toggle.tog_active::before{
-    left: 25px;
+    left: 22px;
     background: white;
 }
