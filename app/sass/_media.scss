@@ -33,7 +33,8 @@
         z-index: 100;
         
         a{
-            color: var(--text_white);
+            font-weight: 700;
+            color: #fff;
         }
     }
     .nav_link{
@@ -63,6 +64,9 @@
     .form_container{
         flex-direction: column-reverse;
 
+    }
+    .toggle{
+        margin-top: 25px;
     }
 }
 // about

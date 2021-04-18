@@ -16,6 +16,7 @@ function linkAction(){
     this.classList.add('active')
     navMenu.classList.remove('show_nav');
     burger.classList.remove('rotate_burger');
+    sideBarMask.classList.remove('sidebar_mask_On')
    
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
