@@ -11,21 +11,28 @@
        
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        row-gap: 2rem;
-        column-gap: 2rem;
+        row-gap: .5rem;
+        column-gap: 1.5rem;
         img{
             height: 50px;
             width: 50px;
         }
         .services_card{
-            border-top: solid 5px var(--secondary-color);
+            border-left:solid 1px #dddd;
+            border-right:solid 1px #dddd;
+            border-bottom:solid 1px #dddd;
+            border-top: solid 3px var(--secondary-color);
             padding: 20px;
             // box-shadow: 4px 4px 15px -6px ;
             // box-shadow: 4px 4px 25px -6px;
-            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.2);
+            
             border-radius: 8px;
             margin-top: 20px;
             flex-grow: 1;
+            transition: .3s ease-in-out;
+            &:hover{
+               box-shadow: 0 5px 15px 0px rgba(0,0,0,0.2);
+            }
            
         }
         .services_desc{

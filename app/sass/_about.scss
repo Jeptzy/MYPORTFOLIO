@@ -13,14 +13,16 @@
     // padding: 0 clamp(4rem,10vw,10rem);
 }
 .about_profile{
-    border-right: 5px solid var(--secondary-color);
+    // border-right: 5px solid var(--secondary-color);
     margin-right: 20px;
+    margin-top: 20px;
+    img{
+      
+        animation: floatbg 6s ease-in-out infinite;
+        width: 100%;
+    }
 }
-.about_profile img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
+
 .about_biography{
     position: relative;
     text-align: left;
@@ -38,7 +40,7 @@
 }
 @media screen and (max-width:768px){
     .wrapper_section{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .wrapper_section>*{
         width: 100%;

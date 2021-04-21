@@ -7,8 +7,8 @@ header{
     cursor: pointer;
 }
 .nav{
-    box-shadow: 1px 1px 8px var(--text_muted);
-    background-color: var(--DarkSecondary_color);
+    // box-shadow: 1px 1px 8px var(--text_muted);
+    background-color: var(--Dark_color);
     height: var(--header_height);
     padding: 10px;
     position: fixed;
@@ -26,6 +26,8 @@ header{
 /*LINKS HOVER ANIMATION*/
     a{
         color: var(--text_gray);
+        font-weight: 900;
+        opacity: .6;
         &.nav_item::after{
             content: '';
             height: 4px;
