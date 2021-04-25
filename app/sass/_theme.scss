@@ -19,12 +19,12 @@ body.light .home_title>h1{
 body.light .skill_section{
     background-color: white;
 }
-body.light .skill_title h1{
+body.light .skill_title h3{
     color: var(--DarkSecondary_color);
 }
 
 body.light .col{
-    background-color: white;
+    background-color: rgb(58, 57, 57);
     // box-shadow: 0 10px 30px -5px rgb(0 0 0 / 5%);
 }
 .sidebar_mask{

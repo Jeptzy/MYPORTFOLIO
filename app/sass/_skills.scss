@@ -3,6 +3,12 @@
     background-color: var(--Dark_color);
     height: auto;
     padding: 50px 20px;
+    .skill_title{
+        h3{
+            color: var(--text_gray);
+        }
+        
+    }
 }
 .skill_container{
     justify-content: center;

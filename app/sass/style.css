@@ -717,6 +717,10 @@ header {
   padding: 50px 20px;
 }
 
+.skill_section .skill_title h3 {
+  color: var(--text_gray);
+}
+
 .skill_container {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -937,10 +941,6 @@ footer .copy {
   padding: 2px;
 }
 
-h2 {
-  color: var(--text_gray);
-}
-
 .project_section {
   height: auto;
   position: relative;
@@ -1075,12 +1075,12 @@ body.light .skill_section {
   background-color: white;
 }
 
-body.light .skill_title h1 {
+body.light .skill_title h3 {
   color: var(--DarkSecondary_color);
 }
 
 body.light .col {
-  background-color: white;
+  background-color: #3a3939;
 }
 
 .sidebar_mask {
